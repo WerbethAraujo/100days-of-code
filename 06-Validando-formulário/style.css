@@ -40,7 +40,7 @@
   color: red;
 }
 
-.form-box .error-hidden {
+.error-hidden {
   display: none;
 }
 
@@ -61,4 +61,14 @@ button {
 }
 button:hover {
   background-color: #6a6af1;
+}
+
+.message {
+  padding-top: 20px;
+  font-style: italic;
+}
+
+.message h2 {
+  padding-left: 32%;
+  font-size: 40px;
 }

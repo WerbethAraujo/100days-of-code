@@ -16,18 +16,25 @@
     <form>
       <div class="form-box">
         <label for="name">Nome Completo:</label>
-        <input
-          class="invalid"
-          type="text"
-          name="name"
-          placeholder="Digite seu nome*"
-        />
+        <input type="text" name="name" placeholder="Digite seu nome*" />
         <p class="error error-hidden">O campo nome é obrigatório</p>
       </div>
+
+      <div class="form-box">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" />
+        <p class="error error-hidden">O e-mail é inválido</p>
+      </div>
+
+      <hr />
+
+      <button>Enviar</button>
     </form>
 
-    <hr />
+    <div class="message error-hidden">
+      <h2>Obrigado pelo contato!</h2>
+    </div>
 
-    <button>Enviar</button>
+    <script src="./script.js"></script>
   </body>
 </html>
